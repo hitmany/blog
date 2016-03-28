@@ -33,3 +33,8 @@ gems:
   - jekyll-gist
 #highlht
 highlighter: pygments
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
