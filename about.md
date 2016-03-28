@@ -1,17 +1,21 @@
 ---
 layout: page
-title: О блоге
-lang: ru
+title: About
+lang: en
 permalink: /about/
 ref: about
 ---
 
-В этом блоге я пишу заметки о фишках, инструкциях и прочей информации которая помогла мне и поможет вам.
+I write notes about the tricks, instructions and other information in this blog which helped me and I hope it will help you too
 
-Часто возникают сложности с реализацией каких-либо вещей <br />и решение приходит после нескольких часов гугления.
-Позже эту вещь нужно снова реализовать и решение не получается найти.
-Хочется иметь онлайновый справочник, тем более бывает что решение не находится в интернете и нежалко им поделится с другими.
+Sometimes solving issues takes a lot of time, sometimes I cant find answer in Google.
+Maybe later the task will be solved again and the solution can not find.
+I want to have an online collection of good solutions and articles.
 
-Блог размещен на [Github Pages](https://pages.github.com/), использует [Jekyll](http://jekyllrb.com/). По [ссылке](http://alexprivalov.org/setup-blog-on-github/) желающие могут почитать как подобный блог настроить для себя. Исходный код блога доступен по [ссылке](https://github.com/hitmany/blog), лицензия [MIT](https://github.com/hitmany/blog/blob/gh-pages/LICENSE.md). Контент блога доступнен по лицензии [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). При использовании материалов с данного блога, пожалуйста, указывайте источник - мне будет приятно:smile:.
+This blog hosted on [Github Pages](https://pages.github.com/) and using [Jekyll](http://jekyllrb.com/). 
+You can create [same blog](/blog/2016/03/28/blog-created/)
+Source code of this blog on [Github](https://github.com/hitmany/blog) with [MIT](https://github.com/hitmany/blog/blob/gh-pages/LICENSE.md) license. 
+Blog content is available under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license. 
+When using materials from this blog please include the source - I would be very pleased :smile:.
 
-Приятного чтения!
+Enjoy!

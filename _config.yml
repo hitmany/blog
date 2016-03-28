@@ -2,16 +2,20 @@
 permalink:           pretty
 
 # Setup
-title:               hitmany blog
-tagline:             My notes about everything
+title:
+  en: "hitmany blog"
+  ru: "Блог hitmany"
+#
+tagline:
+  en: "My notes about everything"
+  ru: "Мои заметки обо всем"
+#
 url:                 http://hitmany.net
-paginate:            1
+paginate:            2
 baseurl:             "/blog"
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
-
+index:
+  en:
+  ru: glavnaya.html
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -35,5 +39,34 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
 #highlht
 highlighter: pygments
+paginate:         10
+menulist:
+  en:
+    home:
+      name: "hitmany blog"
+      url: "/blog/"
+    about:
+      name: "About"
+      url: "/blog/about"
+    archive:
+      name: "Archive"
+      url: "/blog/archive"
+    feed:
+      name: "Feed"
+      url: "/blog/atom.xml"
+  ru:
+    home:
+      name: "Блог hitmany"
+      url: "/blog/glavnaya"
+    about:
+      name: "О блоге"
+      url: "/blog/obloge"
+    archive:
+      name: "Архив"
+      url: "/blog/archive"
+    feed:
+      name: "Лента"
+      url: "/blog/atom.xml"
