@@ -7,6 +7,10 @@ tagline:             My notes about everything
 url:                 http://hitmany.net
 paginate:            1
 baseurl:             "/blog"
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
 
 # Assets
 #
@@ -33,8 +37,3 @@ gems:
   - jekyll-gist
 #highlht
 highlighter: pygments
-
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
