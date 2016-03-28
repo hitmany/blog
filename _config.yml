@@ -1,0 +1,35 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               hitmany blog
+tagline:             My notes about everything
+url:                 http://hitmany.net
+paginate:            1
+baseurl:             "/blog"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              hitmany
+  url:               http://hitmany.net
+  email:             hitmany@hitmany.net
+
+# Custom vars
+version:             2.0.0
+encoding: utf-8
+github:
+  repo:              https://github.com/hitmany/hitmany.github.io/tree/master/blog
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+#highlht
+highlighter: pygments
