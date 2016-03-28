@@ -7,7 +7,7 @@ lang: en
 tags: github github-pages jekyll
 ---
 
-I created a blog for the notes which helped me and maybe they will help you. 
+I created a blog for the notes which helped me and maybe will help you. 
 
 I am using Github Pages as blog platform
 
