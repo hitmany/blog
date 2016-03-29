@@ -57,6 +57,9 @@ menulist:
     feed:
       name: "Feed"
       url: "/blog/atom.xml"
+    main:
+      name: "Me"
+      url: "http://hitmany.net"
   ru:
     home:
       name: "Блог hitmany"
@@ -70,3 +73,6 @@ menulist:
     feed:
       name: "Лента"
       url: "/blog/atom.xml"
+    main:
+      name: "Обо мне"
+      url: "http://hitmany.net"

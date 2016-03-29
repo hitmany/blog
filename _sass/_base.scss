@@ -50,8 +50,9 @@ a {
 img {
   vertical-align: middle;
   max-width: 100%;
-  margin: 0 0 1rem;
   border-radius: 5px;
+  margin-bottom: 5px; 
+  margin-right: 5px
 }
 
 table {
@@ -102,7 +103,7 @@ tbody tr:nth-child(odd) th {
  }
  
  .tag-box.inline li {
-   float: left;
+   display: inline-block;
    font-size: 14px;
    font-size: 0.875rem;
    line-height: 2.5;
