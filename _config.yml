@@ -49,7 +49,7 @@ menulist:
       name: "hitmany blog"
       url: "/blog/"
     about:
-      name: "About"
+      name: "About blog"
       url: "/blog/about"
     archive:
       name: "Archive"
@@ -58,7 +58,7 @@ menulist:
       name: "Feed"
       url: "/blog/atom.xml"
     main:
-      name: "Me"
+      name: "About me"
       url: "http://hitmany.net"
   ru:
     home:

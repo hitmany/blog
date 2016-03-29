@@ -11,8 +11,8 @@
         <h3 class="masthead-title">
 			<div class="menumain">
 			{% for page in site.menulist[page.lang] %}
-				
 				<small><a href="{{ page[1].url  }}">{{ page[1].name }}</a></small>
+				&nbsp;
 			{% endfor %}
 			<small style="float:right;">
 {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
@@ -25,9 +25,9 @@
     <a href="/blog{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
 {% endfor %}
 </small>
-		 </div>
-         <p><small>{{ site.tagline[page.lang] }}</small></p>
+		 </div>         
         </h3>
+		<div class="title"><small>{{ site.tagline[page.lang] }}</small></div>
       </header>
 
       <main>
