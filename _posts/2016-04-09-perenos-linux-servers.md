@@ -18,7 +18,7 @@ tags: linux xming clonezilla
 
 #####Установка дистрибутивов
 Загружаем оба сервера с Ubuntu Live CD
-Устанавливаем CloneZilla, для этого добавляем репозиторий Clonezilla(там всегда самый свежий релиз)
+Устанавливаем CloneZilla, для этого добавляем репозиторий Clonezilla (там всегда самый свежий релиз)
 
 {% highlight shell %}
 $ wget http://drbl.nchc.org.tw/GPG-KEY-DRBL
