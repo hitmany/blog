@@ -52,30 +52,30 @@ $ clonezilla
 
 Выбираем device-device
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-device-device.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-device-device.JPG)
 
 Упрощенный режим
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-beginner.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-beginner.JPG)
 
 Disk to remote disk
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-disk-to-remote-disk.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-disk-to-remote-disk.JPG)
 
 Выбираем диск с которого переносим
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-choose-disk.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-choose-disk.JPG)
 
 Я по своему опыту пытался, перенести образ диска, но у меня возникла ошибка **partclone read image_hdr block_size error**
 Поэтому перед переносом на старом сервере нужно проверить разделы на ошибки и исправить их.
 Выбираем вариант **-fsck-src-part-y**
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-fsck.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-fsck.JPG)
 
 «Please "Enter" to continue» жмем :blush:<br>
 Now we will start to clone data to the target machine. Выбираем «y»
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-waiting-to-connect.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-waiting-to-connect.JPG)
 
 Переходим на новый сервер и принимаем образ
 {% highlight shell %}
@@ -88,7 +88,7 @@ ocs-onethefly -s IP_старого_сервера -t sda
 Где sda обозначение вашего диска на новом сервере
 Далее нужно два раза согласится «y» с тем что данные будут записаны на новом диске, Ждем окончания копирования
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-copying.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/clonezilla-copying.JPG)
 
 Все на этом мы получили полную копию диска.
 
@@ -118,7 +118,7 @@ $ export DISPLAY
 
 В /etc/ssh/sshd_config должен быть установлен **X11Forwarding yes**. Если не установлен то перезапускаем сервис ssh. Получаем красивый интерфейс прямо в Windows, меняем размер диска, это удобно и надежно.
 
-![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/xming-gparted.jpg)
+![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/xming-gparted.JPG)
 
 На этом все не забывайте менять конфигурацию IP. Для этого можно в Live CD примонтировать раздел в котором лежат системные файлы и редактировать конфиг. Мой раздел был sda2
 
