@@ -41,7 +41,7 @@ gems:
   - jekyll-gist
   - jemoji
 #highlht
-highlighter: pygments
+highlighter: rouge
 paginate:         10
 menulist:
   en:
