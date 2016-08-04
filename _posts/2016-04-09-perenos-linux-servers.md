@@ -120,6 +120,9 @@ $ export DISPLAY
 
 ![enter image description here]({{ site.baseurl }}/public/images/posts/09042016/xming-gparted.JPG)
 
+Если Xming не работает, например ошибка "cannot open display". 
+Вот [отличная инструкция](https://sourceforge.net/projects/xming/files/latest/download?source=files)
+
 На этом все, не забывайте менять конфигурацию IP. Для этого можно в Live CD примонтировать раздел в котором лежат системные файлы и редактировать конфиг. Мой раздел был sda2
 
 {% highlight shell %}
